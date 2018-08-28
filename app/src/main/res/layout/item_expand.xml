@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1f1531">
+
+    <com.rentee.expandtextview.ExpandableTextView
+        android:id="@+id/tv_expand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_toLeftOf="@id/iv_expand_arrow"
+        android:ellipsize="end"
+        android:textColor="#8f8a98"
+        tools:text="我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长我很长"/>
+
+    <ImageView
+        android:id="@+id/iv_expand_arrow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignBottom="@id/tv_expand"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="6dp"
+        android:padding="4dp"
+        android:src="@drawable/icon_txt_msg_expand"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tv_expand"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#2e253f"/>
+
+</RelativeLayout>
