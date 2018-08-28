@@ -6,3 +6,5 @@
 2.支持RecyclerView，ListView等复用场景
 
 3.支持设置默认展开/收起状态
+
+4.实现简单，参照demo，copy ExpandableTextView.java至工程即可使用
